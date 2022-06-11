@@ -261,6 +261,12 @@ h2 {
   margin-right: auto;
 }
 
+.app-img-box {
+  border: 1px solid;
+}
+
 .app-img {
-  height: 400px;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
 }
