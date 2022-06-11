@@ -251,22 +251,81 @@ h2 {
 .app-download {
   background: rgb(255, 251, 247);
   width: 100%;
-  height: 600px;
+  height: 450px;
   display: flex;
+
+  margin-bottom: 10rem;
 }
 
 .app-content {
-  width: 80%;
+  width: 58%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .app-img-box {
-  border: 1px solid;
+  float: left;
+  padding-top: 3rem;
 }
 
 .app-img {
   width: 300px;
   height: 300px;
   object-fit: contain;
+}
+
+.app-details {
+  padding-top: 5rem;
+}
+
+.input-link {
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.2rem;
+  margin-right: 0.5rem;
+  padding-left: 1rem;
+
+  width: 200px;
+  height: 40px;
+}
+
+.share-link-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 0.6rem;
+  background-color: rgba(255, 0, 0, 0.8);
+  color: white;
+}
+
+.app-details > h4 {
+  color: gray;
+  padding-bottom: 2rem;
+}
+
+.download-app-from > h4 {
+  color: gray;
+}
+
+.play-store {
+  width: 150px;
+}
+
+.app-store {
+  width: 150px;
+}
+
+/* ============ EXPLORE OPTIONS ================ */
+.ending {
+  display: grid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explore-options > h3 {
+  border: 1px solid gray;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  margin-bottom: 1.3rem;
 }
